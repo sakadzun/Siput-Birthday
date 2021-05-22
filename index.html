@@ -738,7 +738,7 @@
 					selesai=false;
 					$('.ucapan').text('');
 					$('.ucapan *').remove();
-					$(".ucapan").append("<input type='text' id='textcari' style='background:#00000000; width:300px; transform:translateX(-70px); color:#000; outline: none; box-sizing:border-box; border: 0px solid #000; font-size:20px' placeholder='cari di sini' autofocus></input><span class='tombolcari'; style='transition: all ease 0.3s; border-radius:10px; width:60px; height:50px; top:calc(50% - 25px); right:90px; line-height:50px; position:absolute;' onclick='cariok()'>cari</span><span class='tombolcari'; style='transition: all ease 0.3s; border-radius:10px; width:60px; height:50px; top:calc(50% - 25px); right:20px; line-height:50px; position:absolute;' onclick='caribatal()'>batal</span>");
+					$(".ucapan").append("<input type='text' id='textcari' style='background:#00000000; width:300px; transform:translateX(-70px); color:#000; outline: none; box-sizing:border-box; border: 0px solid #000; font-size:20px' placeholder='mau cari sesuatu, ketik disini' autofocus></input><span class='tombolcari'; style='transition: all ease 0.3s; border-radius:10px; width:60px; height:50px; top:calc(50% - 25px); right:90px; line-height:50px; position:absolute;' onclick='cariok()'>cari</span><span class='tombolcari'; style='transition: all ease 0.3s; border-radius:10px; width:60px; height:50px; top:calc(50% - 25px); right:20px; line-height:50px; position:absolute;' onclick='caribatal()'>batal</span>");
 					document.querySelector('#textcari').addEventListener('keyup', function (e) {
 					    if (e.key === 'Enter') {
 				      		cariok();
