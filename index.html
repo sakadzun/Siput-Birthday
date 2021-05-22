@@ -446,7 +446,7 @@
 					<div class="ucapan myoverlay" onclick="carigoogle()"><span id="spannama2"></span></div>	
 				</div>
 				<div class="lagu">
-				<audio src="YAMS.mp3" controls autoplay muted ></audio>
+				<audio src="YAMS.mp3" controls muted ></audio>
 				</div>
 				<div class="shortcut kanan" onclick="toggleFullscreen()">fullscreen</div>
 				
@@ -483,7 +483,7 @@
 						Selamat Ulang Tahun, 생일 축하, 誕生日おめでとう 
 					</div>
 					<div class="mycontent">
-						Have a good day. Semoga finka bisa jadi pribadi yang lebih baik lagi, jadi kebanggaan orang tua dan keluarga, semangat kuliahnya, belajarnya, semangat terus dan jangan mageran lagi, love ♥
+						Have a good day. Semoga finka bisa jadi pribadi yang lebih baik lagi, jadi kebanggaan orang tua dan keluarga, semangat kuliahnya, belajarnya, semangat terus dan jangan mageran lagi. love ♥
 					</div>
 					<div class="mybutton">
 						<div class="mybuttonno" onmouseover="move()" onclick="move2()" >mager</div>
@@ -821,7 +821,7 @@
 				}
 			}
 			function tulis(waktu,ucapan){
-				$("#spannama2").text('Selamat '+waktu+' '+localStorage.getItem("nama")+', '+ucapan+'.');
+				$("#spannama2").text('Selamat '+waktu+' '+localStorage.getItem("nama")+', '+ucapan+');
 			}
 			function checkTime(i) {
 				if (i < 10) {i = "0" + i};
